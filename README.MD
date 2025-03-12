@@ -4,14 +4,21 @@ This is a simple chess game built with Python, Pygame, and the Stockfish chess e
 Project Structure
 The repository contains the following files and directories:
 
-main.py: The entry point of the game, containing the main game loop and event handling.
-config.py: Configuration file with constants like window size, colors, and piece image loading.
-chess_logic.py: Core chess logic, including board creation, move validation, check detection, and legal move generation.
-render.py: Rendering functions for drawing the board, pieces, and UI elements (e.g., promotion menu, game-over screen).
-utils.py: Utility functions, such as converting the board state to FEN notation for Stockfish integration.
-images/: Directory containing PNG images of chess pieces (e.g., chess_piece_2_white_rook.png, chess_piece_2_black_pawn.png, etc.).
-stockfish-windows-x86-64.exe: The Stockfish chess engine executable (required for AI moves).
-dist/: (Optional) Directory with a precompiled executable (chess.exe) for easy gameplay without Python setup.
+## Project Structure
+- **`main.py`**: Main game loop and event handling.
+- **`config.py`**: Game configuration (colors, piece images).
+- **`chess_logic.py`**: Chess rules and move validation.
+- **`render.py`**: Drawing the board and UI.
+- **`utils.py`**: Helper functions (e.g., FEN conversion).
+- **`images/`**: Chess piece PNGs.
+- **`dist/`**: Contains the compiled `chess.exe`.
+
+## Notes
+- The AI uses Stockfish with a skill level of 10.
+- Requires Windows to run the precompiled `.exe`.
+
+Enjoy the game!
+
 How to Play
 Option 1: Run from Source
 Clone this repository:
