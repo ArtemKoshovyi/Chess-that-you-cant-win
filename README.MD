@@ -36,7 +36,6 @@ To prosta gra w szachy stworzona w Pythonie, Pygame i silniku szachowym Stockfis
 Struktura Projektu
 Reposytorium zawiera następujące pliki i katalogi:
 
-Struktura Projektu
 ## Project Structure
 
 - **`main.py`**: Główna pętla gry i obsługa zdarzeń.
