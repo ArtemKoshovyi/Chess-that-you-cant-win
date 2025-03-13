@@ -28,6 +28,8 @@ If you want to play, download dist.zip, unzip it, run `chess.exe`, and enjoy the
      - Click **"Run anyway"** (Uruchom mimo to) to launch the game.
 
 
+### ✨ **Polski
+
 Gra w Szachy autorstwa Kosiv
 To prosta gra w szachy stworzona w Pythonie, Pygame i silniku szachowym Stockfish. Umożliwia grę przeciwko przeciwnikowi AI z podstawowymi zasadami szachów, w tym roszadą, promocją pionka oraz wykrywaniem szachu i mata.
 
